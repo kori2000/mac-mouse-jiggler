@@ -2,31 +2,23 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/kori2000/telegram-bot/blob/main/LICENSE)
 [![Unicorn](https://img.shields.io/badge/nyancat-approved-ff69b4.svg)](https://www.youtube.com/watch?v=QH2-TGUlwu4)
 
-Are you 
+Are you tired of your Mac going into sleep mode or locking the screen when you're away? Introducing the "Mouse Jiggler for Mac" – a simple yet effective console application that keeps your Mac awake while adding a touch of style with Figma fonts and vibrant colors using Lolcat!
 
-## Installation
+This open-source project offers a lightweight C-based solution to prevent your Mac from going to sleep mode, perfect for situations where you need to keep your system active, such as during presentations, watching movies, or avoiding automatic screen locks. The Mouse Jiggler mimics human-like mouse movements, tricking your Mac into thinking there's activity, ensuring it stays awake when you need it most.
 
-Please adjust the .env file before starting the Container.
-
-```bash
-# Replace .ent.test with .env to work in prod enviroment
-
-# Server Settings
-SERVER_PORT=5400
-```
 
 ## Starting
+To start using the Mouse Jiggler on your Mac, follow the simple installation instructions provided in the repository. Once installed, run the application from the terminal and watch as your Mac stays active and awake without any user intervention.
 
 ```bash
 # 🏗️ Build docker image
 make build
 
-# 🚀 Start docker container
+# 🚀 Start jiggler
 make up
 
-# 🛑 Stop docker container
-make down
-```
+## Credits goes to
+https://github.com/yasakurara/mouse-jiggler-macos
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
