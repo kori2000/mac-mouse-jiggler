@@ -11,11 +11,12 @@ This open-source project offers a lightweight C-based solution to prevent your M
 To start using the Mouse Jiggler on your Mac, follow the simple installation instructions provided in the repository. Once installed, run the application from the terminal and watch as your Mac stays active and awake without any user intervention.
 
 ```bash
-# 🏗️ Build docker image
+# 🏗️ Build the jiggler
 make build
 
 # 🚀 Start jiggler
 make up
+```
 
 ## Credits goes to
 https://github.com/yasakurara/mouse-jiggler-macos
